@@ -72,9 +72,6 @@ echo -e "\n[4/5] 检查字典文件..."
 DICT_DIR="$SCRIPT_DIR/dict"
 DICT_FILES=(
     "oneforall_subnames.txt"
-    "gov-edu-med-paths-clean.txt"
-    "gov-edu-med-keywords-clean.txt"
-    "gov-edu-med-dict-clean.txt"
     "resolvers.txt"
 )
 
