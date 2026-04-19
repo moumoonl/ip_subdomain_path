@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(ls -lh *.py *.md)",
+      "Bash(chmod +x:*)",
+      "Bash(ls -lh *.md)",
+      "Bash(awk '{print $9, $5}')",
+      "Bash(grep -E '\\\\.\\(py|md|sh|gitignore\\)$')",
+      "Bash(ls -1 *.py)",
+      "Bash(ls -1 *.md)",
+      "Bash(ls -1 *.sh .gitignore)",
+      "Bash(ls -lh *.md *.py setup.sh .gitignore)",
+      "Bash(ksubdomain --help)",
+      "Bash(ksubdomain -h)",
+      "Bash(ssh root@localhost \"ksubdomain enum --help\")",
+      "mcp__ide__getDiagnostics",
+      "Bash(naabu -host 36.156.145.147 -top-ports 100 -rate 300 -silent)",
+      "Bash(naabu:*)",
+      "Bash(echo \"exit: $?\")",
+      "Read(//tmp/**)",
+      "Bash(ksubdomain enum:*)",
+      "Read(//dev/net/**)",
+      "Read(//proc/sys/net/ipv4/**)",
+      "Bash(python3:*)",
+      "Bash(timeout 15 strace -e trace=socket naabu -host 58.213.154.120 -p 80,443 -s S -rate 1000 -timeout 1000)",
+      "Bash(ls:*)",
+      "Bash(bash -n setup.sh)",
+      "Bash(ksubdomain version:*)",
+      "Read(//root/go/bin/**)",
+      "Bash(ksubdomain verify:*)",
+      "Bash(ksubdomain test:*)",
+      "Read(//root/.config/**)",
+      "Bash(find / -maxdepth 4 -name \"resolvers.txt\")",
+      "mcp__ide__executeCode",
+      "Bash(bash:*)"
+    ]
+  }
+}

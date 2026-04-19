@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# 测试和临时文件
+test_domains_simple.txt
+test_results/
+*.log
+
+# 输出目录
+results/
+temp_*/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 敏感信息
+*.txt
+!test_domains.txt
+!test_ips.txt
+!dict/*.txt
+
+# ksubdomain 网卡配置缓存（换环境后需删除重建）
+ksubdomain.yaml
